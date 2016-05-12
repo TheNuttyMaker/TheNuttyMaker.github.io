@@ -4,12 +4,9 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+This is the official page of TheNuttyMaker. Here we learn by doing. You can find lots of tutorials and code stuff here. You can also follow the wordpress blog here  [thenuttymaker.wordpress.com](https://thenuttymaker.wordpress.com/)
 
-You can find the source code for the Jekyll new theme at:
-{% include social_link.html name="github" user="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+You can find the source code for 10$ Amazon Echo using Raspberry Pi at:
+{% include icon-github.html username="TheNuttyMaker" %} /
+[alexa-avs-raspberry-pi](https://github.com/TheNuttyMaker/alexa-avs-raspberry-pi)
 
-You can find the source code for Jekyll at
-{% include social_link.html name="github" user="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
