@@ -12,8 +12,7 @@ owner:
   link: http://TheNuttyMaker.github.io
   email: pygold@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  A Material Designed Jekyll template for documentation site. Using structure
-  from Jekyll Documentation, and style from Materialize.
+  Welcome to the Makers world! Here we learn by doing.
 baseurl: "" # the subpath of your site, e.g. /blog
 
 collections:
@@ -43,4 +42,4 @@ palette:
   secondary: "#7986cb" # indigo lighten-2
   tertiary: "#9fa8da" # indigo lighten-3
   colored_text: "#c5cae9" # indigo lighten-4
-  highlight: "#f44336" # red
+  highlight: "#f44336" # red color
