@@ -1286,7 +1286,7 @@ button:active,
     height: 200px;
     position: absolute;
     bottom: 0px;
-    background: url(images/sprite-home.png) 0 -1300px no-repeat;
+    background: url(images/sprite-home.png) 0 -1px no-repeat;
     display: block;
   }
   .face .designer-bg {
@@ -1294,7 +1294,7 @@ button:active,
   }
   .face .coder-bg {
     right: 100px;
-    background-position: 100% -1300px;
+    background-position: 100% -1px;
   }
   .face .face-img {
     display: none;
@@ -2015,13 +2015,13 @@ button:active,
     background-position: -32px -186px;
   }
   .social .github a {
-
   background: url(images/github.png) no-repeat;
-  
-  
   }
   .social .linkedin a {
     background-position: -96px -186px;
+  }
+  .social .resume a {
+  background: url(images/resume.png) no-repeat;
   }
   footer nav {
     display: block;
