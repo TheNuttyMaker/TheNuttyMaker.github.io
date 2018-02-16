@@ -2379,18 +2379,18 @@ button:active,
   /* jQuery Preloader */
   #jpreLoader,
   #qLloader {
-    background: url(images/loader.png) 0 100% no-repeat;
+    background: url(images/loader1.png) 0 100% no-repeat;
     background-size: 200px 100px;
   }
   #jpreBar,
   #qLbar {
-    background: url(images/loader.png) -100px 100% no-repeat;
+    background: url(images/loader1.png) -100px 100% no-repeat;
     background-size: 200px 100px;
   }
   .logo,
   .icon-nav {
-    background-image: url(images/Prashantlogo@2x.png);
-    background-size: 200px 500px;
+    background-image: url(images/Prashantlogo.png);
+    /* background-size: 200px 500px; */
   }
   .social-disc li a,
   footer a.top,
@@ -2409,7 +2409,7 @@ button:active,
   only screen and (min-width: 668px) and (min-device-pixel-ratio: 1.5) {
   .logo,
   .social li a {
-    background-image: url(images/sprite.png);
-    background-size: 150px 1200px;
+    /* background-image: url(images/sprite.png);
+    background-size: 150px 1200px; */
   }
 }
