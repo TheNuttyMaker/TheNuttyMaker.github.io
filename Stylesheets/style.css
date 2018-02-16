@@ -1,4 +1,4 @@
-/*   
+/*
 Theme Name: Prashant Yadav
 Theme URI: https
 Description: Hand crafted portfolio website of Adham Dannaway
@@ -107,7 +107,7 @@ section:before,
 section:after,
 .row:after {
   display: table;
-  content: "";
+  content: '';
 }
 .clearfix:after,
 section:after,
@@ -120,28 +120,28 @@ section:after,
 .top,
 header nav li a,
 .thumbs li {
-  -webkit-transition: all .3s;
-  -moz-transition: all .3s;
-  -o-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
 }
 /* Animate color */
 .animate-color,
 footer a {
-  -webkit-transition: color .3s;
-  -moz-transition: color .3s;
-  -o-transition: color .3s;
-  transition: color .3s;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
 }
 /* Animate opacity */
 .animate-opacity,
 .social a,
 .logo,
 .contact a {
-  -webkit-transition: opacity .3s;
-  -moz-transition: opacity .3s;
-  -o-transition: opacity .3s;
-  transition: opacity .3s;
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  transition: opacity 0.3s;
 }
 /* Rounded corners top only */
 .rounded-top,
@@ -218,7 +218,7 @@ span.text-wide {
 }
 /* Page =================================================== */
 html {
-  background: #FFFFFF;
+  background: #ffffff;
   font-size: 62.5%;
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
@@ -228,7 +228,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  font-family: 'proxima nova light', 'Helvetica Neue', Helvetica, Arial, Sans-serif;
   background-color: transparent;
   font-size: 18px;
   font-size: 1.8rem;
@@ -242,7 +242,7 @@ header {
   width: 90%;
   position: absolute;
   z-index: 1000;
-  font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  font-family: 'proxima nova', 'Helvetica Neue', Helvetica, Arial, Sans-serif;
   /* Navigation */
 }
 header nav {
@@ -266,7 +266,7 @@ header nav li {
 }
 header nav li a {
   display: block;
-  color: #FFF;
+  color: #fff;
   line-height: 2.8em;
   text-decoration: none;
 }
@@ -308,7 +308,7 @@ footer {
   color: #666666;
   font-size: 16px;
   font-size: 1.6rem;
-  font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  font-family: 'proxima nova', 'Helvetica Neue', Helvetica, Arial, Sans-serif;
   text-align: center;
   position: relative;
   -webkit-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
@@ -334,7 +334,13 @@ footer .gradient-white {
   top: -50px;
   left: 0px;
   background-color: rgba(255, 255, 255, 0);
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #ffffff), color-stop(1, rgba(255, 255, 255, 0)));
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, #ffffff),
+    color-stop(1, rgba(255, 255, 255, 0))
+  );
   background-image: -ms-linear-gradient(bottom, #ffffff, rgba(255, 255, 255, 0));
   /*background-image: -webkit-linear-gradient(bottom, @start, @stop);*/
   background-image: -moz-linear-gradient(center bottom, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
@@ -375,14 +381,14 @@ h1,
   font-size: 48px;
   font-size: 4.8rem;
   line-height: 1.2em;
-  font-family: "neosans regular", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  font-family: 'neosans regular', 'Helvetica Neue', Helvetica, Arial, Sans-serif;
   letter-spacing: -0.07em;
 }
 .portfolio h1 {
   font-size: 32px;
   font-size: 3.2rem;
-  font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
-  border-bottom: #DDD solid 1px;
+  font-family: 'proxima nova light', 'Helvetica Neue', Helvetica, Arial, Sans-serif;
+  border-bottom: #ddd solid 1px;
   padding-bottom: 0.3em;
   margin-bottom: 0.1em;
   letter-spacing: -0.01em;
@@ -401,7 +407,7 @@ h3,
   /*text-transform: uppercase;*/
   font-size: 20px;
   font-size: 2rem;
-  font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  font-family: 'proxima nova', 'Helvetica Neue', Helvetica, Arial, Sans-serif;
   font-weight: 600;
 }
 p {
@@ -432,7 +438,7 @@ p.author .date {
 }
 .strong,
 strong {
-  font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  font-family: 'proxima nova', 'Helvetica Neue', Helvetica, Arial, Sans-serif;
   font-weight: 600;
 }
 a {
@@ -447,8 +453,8 @@ a:active {
 /* Centered header with line */
 .header-center {
   height: 1px;
-  background: #DDD;
-  border-bottom: #FFF solid 1px;
+  background: #ddd;
+  border-bottom: #fff solid 1px;
   margin-bottom: 30px;
   position: relative;
 }
@@ -472,15 +478,15 @@ a:active {
 /* Change default text selection colour */
 ::selection {
   background: #333333;
-  color: #FFF;
+  color: #fff;
 }
 ::-moz-selection {
   background: #333333;
-  color: #FFF;
+  color: #fff;
 }
 ::-webkit-selection {
   background: #333333;
-  color: #FFF;
+  color: #fff;
 }
 ul.ul,
 ol.ol {
@@ -510,8 +516,8 @@ ol.ol li {
 .line {
   width: 100%;
   height: 1px;
-  background: #DDD;
-  border-bottom: #FFF solid 1px;
+  background: #ddd;
+  border-bottom: #fff solid 1px;
   clear: both;
   margin-bottom: 50px;
 }
@@ -519,28 +525,40 @@ ol.ol li {
 @font-face {
   font-family: 'proxima nova bold';
   src: url('fonts/proximanova-bold-webfont.eot');
-  src: url('fonts/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/proximanova-bold-webfont.woff') format('woff'), url('fonts/proximanova-bold-webfont.ttf') format('truetype'), url('fonts/proximanova-bold-webfont.svg#proxima_nova_rgbold') format('svg');
+  src: url('fonts/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/proximanova-bold-webfont.woff') format('woff'),
+    url('fonts/proximanova-bold-webfont.ttf') format('truetype'),
+    url('fonts/proximanova-bold-webfont.svg#proxima_nova_rgbold') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'proxima nova regular';
   src: url('fonts/proximanova-regular-webfont.eot');
-  src: url('fonts/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/proximanova-regular-webfont.woff') format('woff'), url('fonts/proximanova-regular-webfont.ttf') format('truetype'), url('fonts/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+  src: url('fonts/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/proximanova-regular-webfont.woff') format('woff'),
+    url('fonts/proximanova-regular-webfont.ttf') format('truetype'),
+    url('fonts/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'proxima nova light';
   src: url('fonts/proximanova-light-webfont.eot');
-  src: url('fonts/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/proximanova-light-webfont.woff') format('woff'), url('fonts/proximanova-light-webfont.ttf') format('truetype'), url('fonts/proximanova-light-webfont.svg#proxima_nova_ltregular') format('svg');
+  src: url('fonts/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/proximanova-light-webfont.woff') format('woff'),
+    url('fonts/proximanova-light-webfont.ttf') format('truetype'),
+    url('fonts/proximanova-light-webfont.svg#proxima_nova_ltregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'neosans regular';
   src: url('fonts/neosans-medium-webfont.eot');
-  src: url('fonts/neosans-medium-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/neosans-medium-webfont.woff') format('woff'), url('fonts/neosans-medium-webfont.ttf') format('truetype'), url('fonts/neosans-medium-webfont.svg#neosansregular') format('svg');
+  src: url('fonts/neosans-medium-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/neosans-medium-webfont.woff') format('woff'),
+    url('fonts/neosans-medium-webfont.ttf') format('truetype'),
+    url('fonts/neosans-medium-webfont.svg#neosansregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -548,7 +566,7 @@ ol.ol li {
 section.light,
 section.main {
   overflow: hidden;
-  border-top: #FFF solid 1px;
+  border-top: #fff solid 1px;
   padding: 3em 1.5em;
 }
 section.dark,
@@ -580,18 +598,18 @@ section.light {
   max-width: 1040px;
   margin: 0 auto;
 }
-.portfolio .content-detail .row.alt [class^="col-"] {
+.portfolio .content-detail .row.alt [class^='col-'] {
   float: right;
   margin: 0 0 0 3.84615385%;
 }
-.portfolio .content-detail [class^="col-"] {
+.portfolio .content-detail [class^='col-'] {
   float: left;
   margin: 0 3.84615385% 0 0;
   list-style: none;
   position: relative;
 }
-.portfolio .content-detail [class^="col-"]:last-child,
-.portfolio .content-detail .row.alt [class^="col-"]:last-child {
+.portfolio .content-detail [class^='col-']:last-child,
+.portfolio .content-detail .row.alt [class^='col-']:last-child {
   margin-right: 0;
 }
 .portfolio .content-detail .col-3 {
@@ -633,7 +651,7 @@ img.last {
   margin-bottom: 3em;
 }
 img.shadow {
-  border: #DDD solid 1px;
+  border: #ddd solid 1px;
 }
 /* snaps */
 .snaps {
@@ -701,9 +719,8 @@ img.shadow {
   color: #5fc5ec;
 }
 .social-disc li a.github {
-  
   background: url(images/github.png) no-repeat;
-  
+
   color: #eb528d;
 }
 .social-disc li a.linkedin {
@@ -778,7 +795,7 @@ img.shadow {
 .thumbs li {
   float: none;
   margin: 0 0 1.5em 0;
-  background: #FFF;
+  background: #fff;
   padding: 5% 5% 0 5%;
   position: relative;
   display: block;
@@ -842,7 +859,7 @@ img.shadow {
 a.button,
 button,
 .submit {
-  color: #FFF;
+  color: #fff;
   border-style: solid;
   border-width: 1px;
   /*border-color: #8dc5be #8dc5be #669d95;  */
@@ -867,7 +884,13 @@ button,
   /*.inner-shadow(0px, 1px, 0px, 0px, rgba(255, 255, 255, 0.6));*/
   /*.gradient(#b0dbd6, #5fb2a8, #b0dbd6);*/
   background-color: #333333;
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #111111), color-stop(1, #333333));
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, #111111),
+    color-stop(1, #333333)
+  );
   background-image: -ms-linear-gradient(bottom, #111111, #333333);
   /*background-image: -webkit-linear-gradient(bottom, @start, @stop);*/
   background-image: -moz-linear-gradient(center bottom, #111111 0%, #333333 100%);
@@ -877,7 +900,13 @@ a.button.green,
 button.green,
 .submit.green {
   background-color: #9bd465;
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #56b101), color-stop(1, #9bd465));
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, #56b101),
+    color-stop(1, #9bd465)
+  );
   background-image: -ms-linear-gradient(bottom, #56b101, #9bd465);
   /*background-image: -webkit-linear-gradient(bottom, @start, @stop);*/
   background-image: -moz-linear-gradient(center bottom, #56b101 0%, #9bd465 100%);
@@ -889,7 +918,13 @@ a.button.red,
 button.red,
 .submit.red {
   background-color: #cf3b3b;
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #a90000), color-stop(1, #cf3b3b));
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, #a90000),
+    color-stop(1, #cf3b3b)
+  );
   background-image: -ms-linear-gradient(bottom, #a90000, #cf3b3b);
   /*background-image: -webkit-linear-gradient(bottom, @start, @stop);*/
   background-image: -moz-linear-gradient(center bottom, #a90000 0%, #cf3b3b 100%);
@@ -900,16 +935,22 @@ button.red,
 a.button.disabled,
 button.disabled,
 .submit.disabled {
-  -webkit-box-shadow: 0 1px 1px #ffffff, 0 -1px 0 rgba(0, 0, 0, 0.02), inset 0 1px 0 rgba(0, 0, 0, 0.05), inset 0 2px 0 rgba(0, 0, 0, 0.02), inset 1px 0 0 rgba(0, 0, 0, 0.02), inset -1px 0 0 rgba(0, 0, 0, 0.02) !important;
-  -moz-box-shadow: 0 1px 1px #ffffff, 0 -1px 0 rgba(0, 0, 0, 0.02), inset 0 1px 0 rgba(0, 0, 0, 0.05), inset 0 2px 0 rgba(0, 0, 0, 0.02), inset 1px 0 0 rgba(0, 0, 0, 0.02), inset -1px 0 0 rgba(0, 0, 0, 0.02) !important;
-  box-shadow: 0 1px 1px #ffffff, 0 -1px 0 rgba(0, 0, 0, 0.02), inset 0 1px 0 rgba(0, 0, 0, 0.05), inset 0 2px 0 rgba(0, 0, 0, 0.02), inset 1px 0 0 rgba(0, 0, 0, 0.02), inset -1px 0 0 rgba(0, 0, 0, 0.02) !important;
-  -webkit-animation-name: none!important;
-  background: #f2f2f2!important;
+  -webkit-box-shadow: 0 1px 1px #ffffff, 0 -1px 0 rgba(0, 0, 0, 0.02),
+    inset 0 1px 0 rgba(0, 0, 0, 0.05), inset 0 2px 0 rgba(0, 0, 0, 0.02),
+    inset 1px 0 0 rgba(0, 0, 0, 0.02), inset -1px 0 0 rgba(0, 0, 0, 0.02) !important;
+  -moz-box-shadow: 0 1px 1px #ffffff, 0 -1px 0 rgba(0, 0, 0, 0.02),
+    inset 0 1px 0 rgba(0, 0, 0, 0.05), inset 0 2px 0 rgba(0, 0, 0, 0.02),
+    inset 1px 0 0 rgba(0, 0, 0, 0.02), inset -1px 0 0 rgba(0, 0, 0, 0.02) !important;
+  box-shadow: 0 1px 1px #ffffff, 0 -1px 0 rgba(0, 0, 0, 0.02), inset 0 1px 0 rgba(0, 0, 0, 0.05),
+    inset 0 2px 0 rgba(0, 0, 0, 0.02), inset 1px 0 0 rgba(0, 0, 0, 0.02),
+    inset -1px 0 0 rgba(0, 0, 0, 0.02) !important;
+  -webkit-animation-name: none !important;
+  background: #f2f2f2 !important;
   background: rgba(0, 0, 0, 0.06) !important;
-  border-color: #cfcfcf!important;
-  filter: none!important;
-  border-top-color: #bfbfbf!important;
-  color: #b4b4b4!important;
+  border-color: #cfcfcf !important;
+  filter: none !important;
+  border-top-color: #bfbfbf !important;
+  color: #b4b4b4 !important;
   position: static;
   cursor: auto;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4), 0 -1px 6px rgba(0, 0, 0, 0.05) !important;
@@ -933,7 +974,7 @@ button:active,
   padding: 0px 15px;
   font-size: 12px;
   font-size: 1.2rem;
-  background: #EFEFEF;
+  background: #efefef;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   border-radius: 15px;
@@ -956,7 +997,7 @@ button:active,
 /* jQuery Preloader */
 #jpreOverlay,
 #qLoverlay {
-  background-color: #FFF;
+  background-color: #fff;
   width: 100%;
   height: 100%;
   position: fixed;
@@ -967,7 +1008,7 @@ button:active,
 #jpreSlide {
   font-size: 22px;
   font-weight: bold;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   width: 100%;
 }
@@ -1090,9 +1131,9 @@ button:active,
 }
 
 @media screen and (max-width: 1024px) {
-    .particles-js {
-        display: none !important;
-    }
+  .particles-js {
+    display: none !important;
+  }
 }
 
 @media only screen and (min-width: 321px) {
@@ -1236,7 +1277,7 @@ button:active,
     left: 0px;
     background-position: 0px -892px;
   }
-/*  .face .designer-img,
+  /*  .face .designer-img,
   .face .coder-img {
     width: 420px;
     height: 600px;
@@ -1307,10 +1348,10 @@ button:active,
   /* Some Errors */
   /* Sent successfully */
 }
-.contact input[type="text"],
-.contact input[type="email"],
+.contact input[type='text'],
+.contact input[type='email'],
 .contact textarea {
-  border: #CCC solid 1px;
+  border: #ccc solid 1px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -1324,11 +1365,11 @@ button:active,
   color: #666666;
   font-size: 16px;
   font-size: 1.6rem;
-  font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  font-family: 'proxima nova light', 'Helvetica Neue', Helvetica, Arial, Sans-serif;
   padding: 0px;
 }
-.contact input[type="text"],
-.contact input[type="email"] {
+.contact input[type='text'],
+.contact input[type='email'] {
   height: 30px;
   line-height: 30px;
 }
@@ -1395,7 +1436,7 @@ button:active,
 .blog .h1 {
   font-size: 32px;
   font-size: 3.2rem;
-  font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  font-family: 'proxima nova light', 'Helvetica Neue', Helvetica, Arial, Sans-serif;
   padding-bottom: 0.3em;
   margin-bottom: 0.1em;
   letter-spacing: -0.01em;
@@ -1435,7 +1476,7 @@ button:active,
   /*text-transform: uppercase;*/
   font-size: 20px;
   font-size: 2rem;
-  font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  font-family: 'proxima nova', 'Helvetica Neue', Helvetica, Arial, Sans-serif;
   font-weight: 600;
 }
 .blog h3 a,
@@ -1448,7 +1489,7 @@ button:active,
 }
 .blog article {
   padding-bottom: 1.4em;
-  border-bottom: #DDD solid 1px;
+  border-bottom: #ddd solid 1px;
 }
 .blog article p {
   font-size: 20px;
@@ -1526,7 +1567,7 @@ button:active,
   padding-top: 0px;
 }
 .blog .recent-posts {
-  border-bottom: #DDD solid 1px;
+  border-bottom: #ddd solid 1px;
   padding-bottom: 2.1em;
   margin-top: 1em;
 }
@@ -1577,7 +1618,7 @@ button:active,
     float: left;
     width: 44.16666666666%;
     margin: 0 5% 5% 0;
-    background: #FFF;
+    background: #fff;
     padding: 1.6666666666% 1.6666666666% 0 1.6666666666%;
   }
   .thumbs li:nth-child(2n) {
@@ -1649,7 +1690,7 @@ button:active,
   }
   header nav li a {
     display: block;
-    color: #FFF;
+    color: #fff;
     line-height: 92px;
     padding: 0 1em;
     text-decoration: none;
@@ -1663,7 +1704,7 @@ button:active,
     color: #666666;
   }
   header nav .portfolio .current_page_parent a {
-    color: #FFF;
+    color: #fff;
   }
   header nav .portfolio .page-item-7 a {
     color: #666666;
@@ -1741,7 +1782,7 @@ button:active,
     /* height:214px; */
     /* margin: 0 25px 25px 0; */
     margin: 0 2.4038461538% 2.4038461538% 0;
-    background: #FFF;
+    background: #fff;
     /* padding: 8px; */
     padding: 0.7692307692% 0.7692307692% 0 0.7692307692%;
   }
@@ -1800,17 +1841,17 @@ button:active,
     display: inline-block;
     width: 16%;
     height: 100%;
-    background-color: #CCC;
+    background-color: #ccc;
     text-align: center;
     font-weight: bold;
-    color: #FFF;
+    color: #fff;
     position: relative;
     font-size: 18px;
     font-size: 1.8rem;
     margin: 0 1.8% 0 0;
-    border: #BBB solid 1px;
+    border: #bbb solid 1px;
     vertical-align: bottom;
-    border-bottom: #BBB solid 1px;
+    border-bottom: #bbb solid 1px;
     -webkit-box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.6);
     -moz-box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.6);
     box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.6);
@@ -1866,7 +1907,13 @@ button:active,
   .bar-chart .aqua {
     border-color: #8dc5be;
     background-color: #b0dbd6;
-    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #5fb2a8), color-stop(1, #b0dbd6));
+    background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(0, #5fb2a8),
+      color-stop(1, #b0dbd6)
+    );
     background-image: -ms-linear-gradient(bottom, #5fb2a8, #b0dbd6);
     /*background-image: -webkit-linear-gradient(bottom, @start, @stop);*/
     background-image: -moz-linear-gradient(center bottom, #5fb2a8 0%, #b0dbd6 100%);
@@ -1875,7 +1922,13 @@ button:active,
   .bar-chart .pink {
     border-color: #ebc0b5;
     background-color: #f4dcd6;
-    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #e1ae9e), color-stop(1, #f4dcd6));
+    background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(0, #e1ae9e),
+      color-stop(1, #f4dcd6)
+    );
     background-image: -ms-linear-gradient(bottom, #e1ae9e, #f4dcd6);
     /*background-image: -webkit-linear-gradient(bottom, @start, @stop);*/
     background-image: -moz-linear-gradient(center bottom, #e1ae9e 0%, #f4dcd6 100%);
@@ -1884,7 +1937,13 @@ button:active,
   .bar-chart .yellow {
     border-color: #e7af30;
     background-color: #efc563;
-    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #dfae36), color-stop(1, #efc563));
+    background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(0, #dfae36),
+      color-stop(1, #efc563)
+    );
     background-image: -ms-linear-gradient(bottom, #dfae36, #efc563);
     /*background-image: -webkit-linear-gradient(bottom, @start, @stop);*/
     background-image: -moz-linear-gradient(center bottom, #dfae36 0%, #efc563 100%);
@@ -1893,7 +1952,13 @@ button:active,
   .bar-chart .brown {
     border-color: #dcb386;
     background-color: #dcba83;
-    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #bc8e5b), color-stop(1, #dcba83));
+    background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(0, #bc8e5b),
+      color-stop(1, #dcba83)
+    );
     background-image: -ms-linear-gradient(bottom, #bc8e5b, #dcba83);
     /*background-image: -webkit-linear-gradient(bottom, @start, @stop);*/
     background-image: -moz-linear-gradient(center bottom, #bc8e5b 0%, #dcba83 100%);
@@ -1902,7 +1967,13 @@ button:active,
   .bar-chart .red {
     border-color: #e14949;
     background-color: #da6d6c;
-    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #ca4544), color-stop(1, #da6d6c));
+    background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(0, #ca4544),
+      color-stop(1, #da6d6c)
+    );
     background-image: -ms-linear-gradient(bottom, #ca4544, #da6d6c);
     /*background-image: -webkit-linear-gradient(bottom, @start, @stop);*/
     background-image: -moz-linear-gradient(center bottom, #ca4544 0%, #da6d6c 100%);
@@ -1911,7 +1982,7 @@ button:active,
   .bar-chart li.axis {
     width: 8%;
     border: 0;
-    border-right: #DDD solid 1px;
+    border-right: #ddd solid 1px;
     height: 450px;
     background: #fafafa;
     -webkit-box-shadow: inset 0 0 0 0 #ffffff;
@@ -1943,7 +2014,7 @@ button:active,
     font-size: 48px;
     font-size: 4.8rem;
     padding-bottom: 0.3em;
-    border-bottom: #DDD solid 1px;
+    border-bottom: #ddd solid 1px;
   }
   .blog h2,
   .blog .h2 {
@@ -2009,19 +2080,19 @@ button:active,
     opacity: 0.5;
   }
   .social .facebook a {
-    background-position: 0px -186px;  
+    background-position: 0px -186px;
   }
   .social .twitter a {
     background-position: -32px -186px;
   }
   .social .github a {
-  background: url(images/github.png) no-repeat;
+    background: url(images/github.png) no-repeat;
   }
   .social .linkedin a {
     background-position: -96px -186px;
   }
   .social .resume a {
-  background: url(images/resume.png) no-repeat;
+    background: url(images/resume.png) no-repeat;
   }
   footer nav {
     display: block;
@@ -2053,18 +2124,18 @@ button:active,
     max-width: 1040px;
     margin: 0 auto;
   }
-  .row.alt [class^="col-"] {
+  .row.alt [class^='col-'] {
     float: right;
     margin: 0 0 0 3.84615385%;
   }
-  [class^="col-"] {
+  [class^='col-'] {
     float: left;
     margin: 0 3.84615385% 0 0;
     list-style: none;
     position: relative;
   }
-  [class^="col-"]:last-child,
-  .row.alt [class^="col-"]:last-child {
+  [class^='col-']:last-child,
+  .row.alt [class^='col-']:last-child {
     margin: 0;
   }
   .col-1 {
@@ -2302,16 +2373,18 @@ button:active,
   }
 }
 /* Mobile retina */
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min--moz-device-pixel-ratio: 1.5),
+  only screen and (min-device-pixel-ratio: 1.5) {
   /* jQuery Preloader */
   #jpreLoader,
   #qLloader {
-    background: url(images/loader@2x.png) 0 100% no-repeat;
+    background: url(images/loader.png) 0 100% no-repeat;
     background-size: 200px 100px;
   }
   #jpreBar,
   #qLbar {
-    background: url(images/loader@2x.png) -100px 100% no-repeat;
+    background: url(images/loader.png) -100px 100% no-repeat;
     background-size: 200px 100px;
   }
   .logo,
@@ -2326,15 +2399,17 @@ button:active,
   .prev,
   .next a,
   .prev a {
-    background-image: url(images/sprite@2x.png);
+    background-image: url(images/sprite.png);
     background-size: 150px 1200px;
   }
 }
 /* Desktop retina */
-@media only screen and (min-width: 668px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 668px) and (min--moz-device-pixel-ratio: 1.5), only screen and (min-width: 668px) and (min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 668px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-width: 668px) and (min--moz-device-pixel-ratio: 1.5),
+  only screen and (min-width: 668px) and (min-device-pixel-ratio: 1.5) {
   .logo,
   .social li a {
-    background-image: url(images/sprite@2x.png);
+    background-image: url(images/sprite.png);
     background-size: 150px 1200px;
   }
 }
